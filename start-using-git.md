@@ -1,6 +1,6 @@
 # Howto: Start using Git
 
-This document describes the first basics commands that I used when I first started using Git.
+This document describes the first basics commands that I used when I first started using Git. If you have the time, please read [this great online book](http://git-scm.com/book). 
 
 	$ git init
 	# Initializes an empty repository in the current folder
