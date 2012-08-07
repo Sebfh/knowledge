@@ -25,6 +25,14 @@ This document describes the first basics commands that I used when I first start
 	$ git config --global user.email your@email.com
 	# Sets the default email for git to use when you commit
 
+## Cloning an Existing Repository
+
+If you want to get a copy of an existing Git repository — for example, a project you’d like to contribute to — the command you need is *$ git clone*.
+
+You clone a repository with *git clone [url]*. For example, if you want to clone this repository, you can do so like this:
+
+	$ git clone git://github.com/Sebfh/knowledge.git
+
 ## Commit the changes you just made
 
 If you don't had time to read all off [the Git Book](http://git-scm.com/book "Please do!") then just follow these instructions to commit you latest changes to the repo on Github.
