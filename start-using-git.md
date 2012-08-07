@@ -7,3 +7,8 @@ This document describes the first basics commands that I used when I first start
 	$ git remote add git@github.com:Sebfh/knowledge.git
 	$ git commit -a -m "This is my first commit"
 	$ git push -u origin master
+
+## Configure Git
+
+	$ git config --global user.name "Your Name"
+	$ git config --global user.email your@email.com
