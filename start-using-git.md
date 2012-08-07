@@ -25,6 +25,19 @@ This document describes the first basics commands that I used when I first start
 	$ git config --global user.email your@email.com
 	# Sets the default email for git to use when you commit
 
+## Commit the changes you just made
+
+	If you don't had time to read all off [the Git Book](http://git-scm.com/book "Please do!") then just follow these instructions to commit you latest changes to the repo on Github.
+
+	$ git add FILENAME
+	# You can use . to stage all files in the folder
+	
+	$ git commit -m "Your commit message goes here"
+	# Please be descriptive in your commit-messages, your not the only one working on the project...
+
+	$ git push origin master
+	# Push the branch you're on to Github, this is normally *master* but could be a different one.
+
 ## Reading
 
 Please reed [http://git-scm.com/book](http://git-scm.com/book "It's easy, trust me...")
