@@ -27,7 +27,7 @@ This document describes the first basics commands that I used when I first start
 
 ## Commit the changes you just made
 
-	If you don't had time to read all off [the Git Book](http://git-scm.com/book "Please do!") then just follow these instructions to commit you latest changes to the repo on Github.
+If you don't had time to read all off [the Git Book](http://git-scm.com/book "Please do!") then just follow these instructions to commit you latest changes to the repo on Github.
 
 	$ git add FILENAME
 	# You can use . to stage all files in the folder
