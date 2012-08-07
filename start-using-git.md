@@ -27,7 +27,7 @@ This document describes the first basics commands that I used when I first start
 
 ## Cloning an Existing Repository
 
-If you want to get a copy of an existing Git repository — for example, a project you’d like to contribute to — the command you need is **$ git clone**.
+If you want to get a copy of an existing Git repository — for example, a project you’d like to contribute to — the command you need is **git clone**.
 
 You clone a repository with **git clone [url]**. For example, if you want to clone this repository, you can do so like this:
 
