@@ -11,4 +11,7 @@ This document describes the first basics commands that I used when I first start
 ## Configure Git
 
 	$ git config --global user.name "Your Name"
+	# Sets the default name for git to use when you commit
+	
 	$ git config --global user.email your@email.com
+	# Sets the default email for git to use when you commit
