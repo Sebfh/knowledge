@@ -24,3 +24,7 @@ This document describes the first basics commands that I used when I first start
 
 	$ git config --global user.email your@email.com
 	# Sets the default email for git to use when you commit
+
+## Reading
+
+Please reed [http://git-scm.com/book](http://git-scm.com/book "It's easy, trust me...")
