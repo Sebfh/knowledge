@@ -35,6 +35,13 @@ You clone a repository with **git clone [url]**. For example, if you want to clo
 
 That creates a directory named __knowledge__, initializes a .git directory inside it, pulls down all the data for that repository, and checks out a working copy of the latest version.
 
+## Pulling from a remote
+
+To get the latest commits from a remote branch you can use the **git pull** command. This command will search the remote repository for the latest commits and download then and try a merge.
+
+	$ git pull <remotename> <branchname>
+	# git pull origin master
+
 ## Commit the changes you just made
 
 If you don't had time to read all off [the Git Book](http://git-scm.com/book "Please do!") then just follow these instructions to commit you latest changes to the repo on Github.
