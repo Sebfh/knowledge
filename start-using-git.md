@@ -42,6 +42,8 @@ To get the latest commits from a remote branch you can use the **git pull** comm
 	$ git pull <remotename> <branchname>
 	# git pull origin master
 
+When you use Github to host your project repos the remote is usually called **origin**
+
 ## Commit the changes you just made
 
 If you don't had time to read all off [the Git Book](http://git-scm.com/book "Please do!") then just follow these instructions to commit you latest changes to the repo on Github.
