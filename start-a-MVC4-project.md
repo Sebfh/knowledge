@@ -21,3 +21,14 @@ Enabling database migrations creates a new Migrations Folder in your Visual Stud
 When you're finished creating you migrations you can update your database
 
 	Update-Database
+
+## Bugs
+
+Running a ASP.NET MVC 4 application on a fresh IIS7 server wil not work. You need to add the following lines to your Web.config
+
+	<system.webServer>
+    <modules>
+      <remove name="UrlRoutingModule-4.0" />
+      <add name="UrlRoutingModule-4.0" type="System.Web.Routing.UrlRoutingModule" preCondition="" />
+      <!-- any other modules you want to run in MVC e.g. FormsAuthentication, Roles etc. -->
+    </modules>
