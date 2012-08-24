@@ -32,3 +32,4 @@ Running a ASP.NET MVC 4 application on a fresh IIS7 server wil not work. You nee
       <add name="UrlRoutingModule-4.0" type="System.Web.Routing.UrlRoutingModule" preCondition="" />
       <!-- any other modules you want to run in MVC e.g. FormsAuthentication, Roles etc. -->
     </modules>
+    ...
