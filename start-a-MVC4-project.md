@@ -6,4 +6,18 @@ This document holds a summary of command and tricks I use when working on [ASP.N
 
 To enable migrations open the Package Manager Console (Tools -> Library Package Manager -> Package Manager Console) and enter the following command
 
-	Enable-Migrations		
+	Enable-Migrations
+
+If you use more then one DBContext you must enable migrations on every DbContext seperatly
+
+	Enable-Migrations -ContextTypeName YourNameSpace.Models.MenuDbContext
+
+Enabling database migrations creates a new Migrations Folder in your Visual Studio Solution as well as an InitialCreate Target Migration that has both an Up and Down Migration.	
+
+## Creating a Migration
+
+	Add-Migration YouMigrationName
+
+When you're finished creating you migrations you can update your database
+
+	Update-Database
