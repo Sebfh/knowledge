@@ -24,7 +24,7 @@ When you're finished creating you migrations you can update your database
 
 ## Bugs
 
-Running a ASP.NET MVC 4 application on a fresh IIS7 server wil not work. You need to add the following lines to your Web.config. Thank you [Colin Farr](http://www.britishdeveloper.co.uk/2010/06/dont-use-modules-runallmanagedmodulesfo.html)
+Running a ASP.NET MVC 4 application on a fresh IIS7 server wil not work. You need to add the following lines to your Web.config. Thanks  to [Colin Farr](http://www.britishdeveloper.co.uk/2010/06/dont-use-modules-runallmanagedmodulesfo.html) for the solution.
 
 	<system.webServer>
     <modules>
