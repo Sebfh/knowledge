@@ -1,5 +1,4 @@
-Howto: Start a Phonegap Project
-===============================	
+# Howto: Start a Phonegap Project
 
 Install
 -------
