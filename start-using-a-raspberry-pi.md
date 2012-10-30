@@ -2,13 +2,18 @@
 
 This document describes how to setup a stock Raspberry Pi running Debian. The Raspberry Pi is beeing setup to automaticaly boot into Chromium kioskmode.
 
+To check your Raspberry pi's ipaddress type:
+
+	$ sudo ifconfig
+	# This will be used later on in this document
+
 ## Raspi-config
 
 First walk through the raspi-config
 
 	$ sudo raspi-config
 
-1. update raspi-config
+1. Update raspi-config
 2. Enable SSH
 3. Start desktop on boot
 4. Change timezone
