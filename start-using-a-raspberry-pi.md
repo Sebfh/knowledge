@@ -37,7 +37,9 @@ Add Chromium-browser to the startup
 
 	$ sudo nano /etc/xdg/lxsession/LXDE/autostart
 
-Add '@chromium-browser --kiosk --incognito http://example.com' to the autostart file. To test if this works reboot your Raspberry Pi:
+Add '@chromium-browser --kiosk --incognito http://example.com' to the autostart file. 
+
+Test if this all works, reboot your Raspberry Pi:
 
 	$ sudo shutdown -r now
 	# -r means reboot, now means now!
