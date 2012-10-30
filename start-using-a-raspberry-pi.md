@@ -20,21 +20,20 @@ First walk through the raspi-config
 
 ## Installation
 
-1. Check if SSH is running:
+Check if SSH is running:
 
 	$ sudo service ssh status
-	#[ ok ] sshd is running.
 
-2. Update aptitude and apt-get to get the latest versions
+Update aptitude and apt-get to get the latest versions
 
 	$ sudo aptitude update
 	$ sudo apt-get update
 
-3. Install the Chromium browser
+Install the Chromium browser
 	
 	$ sudo apt-get install chromium-browser
 
-4. Add Chromium-browser to the startup
+Add Chromium-browser to the startup
 
 	$ sudo nano /etc/xdg/lxsession/LXDE/autostart
 
