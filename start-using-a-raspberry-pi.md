@@ -1,4 +1,4 @@
-# Howto setup a Raspberry Pi
+# Howto setup a Raspberry Pi to boot into Chromium
 
 This document describes how to setup a stock Raspberry Pi running Debian. The Raspberry Pi is beeing setup to automaticaly boot into Chromium kioskmode.
 
