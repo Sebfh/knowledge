@@ -1,4 +1,8 @@
-# Raspi-config
+# Howto setup a Raspberry Pi
+
+This document describes how to setup a stock Raspberry Pi running Debian. The Raspberry Pi is beeing setup to automaticaly boot into Chromium kioskmode.
+
+## Raspi-config
 
 First walk through the raspi-config
 
@@ -9,7 +13,7 @@ First walk through the raspi-config
 3. Start desktop on boot
 4. Change timezone
 
-# Installation
+## Installation
 
 $ sudo bash
 $ ssh-keygen
