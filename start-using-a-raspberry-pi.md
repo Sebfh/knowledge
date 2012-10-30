@@ -20,21 +20,25 @@ First walk through the raspi-config
 
 ## Installation
 
-$ sudo bash
-$ ssh-keygen
+1. Check if SSH is running:
 
-$ ls /root/.ssh/
+	$ sudo service ssh status
+	# [ ok ] sshd is running.
 
-$ service ssh start
+2. Update aptitude and apt-get to get the latest versions
 
-$ service ssh status
+	$ sudo aptitude update
+	$ sudo apt-get update
 
+3. Install the Chromium browser
+	
+	$ sudo apt-get install chromium-browser
 
-$ sudo aptitude update
-$ sudo apt-get update
+4. Add Chromium-browser to the startup
 
-$ sudo apt-get install chromium-browser
+	$ sudo nano /etc/xdg/lxsession/LXDE/autostart
 
-$ sudo shutdown -r now
+Add '@chromium-browser --kiosk --incognito http://example.com' to the autostart file. To test if this works reboot your Raspberry Pi:
 
-$ startx
+	$ sudo shutdown -r now
+	# -r means reboot, now means now!
