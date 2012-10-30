@@ -1,12 +1,8 @@
-# Default Credentials
-
-raspberrypi login: pi
-
-Password: raspberry
-
 # Raspi-config
 
-Firts walk through the config
+First walk through the raspi-config
+
+	$ sudo raspi-config
 
 1. update raspi-config
 2. Enable SSH
