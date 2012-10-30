@@ -23,6 +23,7 @@ First walk through the raspi-config
 Check if SSH is running:
 
 	$ sudo service ssh status
+	#[ok] sshd is running
 
 Update aptitude and apt-get to get the latest versions
 
