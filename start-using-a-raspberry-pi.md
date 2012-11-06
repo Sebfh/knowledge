@@ -44,3 +44,10 @@ Test if this all works, reboot your Raspberry Pi:
 
 	$ sudo shutdown -r now
 	# -r means reboot, now means now!
+
+To prevent Raspberry from sleeping
+
+In the file /etc/lightdm/lightdm.conf edit this "xserver-command". This worked for me at least.
+
+[SeatDefaults]
+xserver-command=X -s 0 -dpms
